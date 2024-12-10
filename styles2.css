@@ -7,8 +7,7 @@ body {
     height: 100vh;
     background-color: darkgreen; 
     font-family: 'Lilita One';
-    overflow: hidden; 
-
+    overflow: hidden; ×
 }
 .rotating-text {
     font-size: 5rem; 
@@ -25,3 +24,24 @@ body {
         transform: rotate(360deg);
     }
 }
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Lilita One', cursive; 
+    transition: background-color 0.3s ease;
+    }
+
+.back-button:hover {
+        background-color: #555;
+    }
+}
+
+
+
+
