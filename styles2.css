@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkgreen; 
+    font-family: 'Lilita One';
+    overflow: hidden; 
+
+}
+.rotating-text {
+    font-size: 5rem; 
+    color: white; 
+    animation: rotate360 5s linear infinite; 
+    
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
